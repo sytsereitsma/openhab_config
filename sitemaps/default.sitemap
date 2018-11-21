@@ -1,0 +1,6 @@
+sitemap default label="My first sitemap"
+{
+    Switch item=Aanwezig label="Aanwezig"
+    Switch item=Lampen_test label="Lampen test"
+}
+

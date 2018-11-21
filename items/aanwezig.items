@@ -1,0 +1,3 @@
+Switch Aanwezig "We zijn thuis [%s]" <switch>
+Switch Lampen_test "Lampen test [%s]" <switch>
+

@@ -1,0 +1,11 @@
+rule "Controleer of alle lampen aan staan"
+when
+    Item Lampen_test received update 
+then
+    logInfo("Aanwezig.rules", "Lampen test " + Lampen_test)
+    if(Lampen_test.state == OFF)
+        LampDeur_State.sendCommand(OFF)
+    else
+        LampDeur_State.sendCommand(ON)
+end
+
